@@ -9,5 +9,10 @@ def main():
 def hello_main():
     return "kuggk"
 
+@app.route("/sign")
+def sign():
+    return render_template('signup.html')
+
+
 if __name__ == "__main__":
     app.run()
